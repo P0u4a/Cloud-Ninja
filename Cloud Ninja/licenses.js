@@ -19,8 +19,6 @@ class licenses extends Phaser.Scene {
         this.add.text(10, 140, "License (MIT): https://opensource.org/licenses/MIT", { fontFamily: "Arial", fontSize: 15, color: "#000000" });
         this.add.text(10,280, "---------------------------------------------------------------------------------------", { fontFamily: "Arial", fontSize: 15, color: "#000000" });
         this.add.text(10, 310, "© 2020, PaulTheBuilder. All rights reserved.", { fontFamily: "Calibri", fontSize: 20, color: "#000000" })
-        this.add.text(10, 330, "This software is licensed under the GNU General Public License v3.0.", { fontFamily: "Calibri", fontSize: 20, color: "#000000" })
-        this.add.text(10, 350, "Link: https://opensource.org/licenses/gpl-3.0.html ", { fontFamily: "Calibri", fontSize: 20, color: "#000000" })
     
         click = this.sound.add("click")
         backbutton = this.add.image(750, 50, "button").setInteractive();
